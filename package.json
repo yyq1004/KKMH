@@ -1,0 +1,34 @@
+{
+  "private": true,
+  "author": "vjdsbw <1459281431@qq.com>",
+  "scripts": {
+    "build": "max build",
+    "dev": "max dev",
+    "format": "prettier --cache --write .",
+    "postinstall": "max setup",
+    "prepare": "husky install",
+    "setup": "max setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@alex_xu/react-slider-vertify": "^1.2.0",
+    "@ant-design/icons": "^4.7.0",
+    "@ant-design/pro-components": "^1.1.3",
+    "@umijs/max": "^4.0.9",
+    "antd": "^4.22.2",
+    "antd-mobile": "^5.20.0",
+    "antd-mobile-icons": "^0.3.0",
+    "react-transition-group": "^4.4.5",
+    "react-virtualized": "^9.22.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
+    "prettier-plugin-organize-imports": "^2",
+    "prettier-plugin-packagejson": "^2",
+    "typescript": "^4.1.2"
+  }
+}
